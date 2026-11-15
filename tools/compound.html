@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Compound Interest Calculator with Growth Chart & Rule of 72 | 34456.com</title>
+<meta name="description" content="Project how savings grow with monthly contributions and compound interest. Compare best and worst-case rates, see total interest earned and doubling time.">
+<link rel="canonical" href="https://34456.com/tools/compound.html">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="theme-color" content="#7c5cff">
+<meta property="og:type" content="website"><meta property="og:site_name" content="34456.com">
+<meta property="og:title" content="Compound Interest Calculator with Growth Chart & Rule of 72 | 34456.com"><meta property="og:description" content="Project how savings grow with monthly contributions and compound interest. Compare best and worst-case rates, see total interest earned and doubling time.">
+<meta property="og:url" content="https://34456.com/tools/compound.html"><meta property="og:image" content="https://34456.com/assets/img/og.svg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="google-adsense-account" content="ca-pub-6620975821265271">
+<link rel="icon" href="../assets/img/favicon.svg" type="image/svg+xml">
+<link rel="manifest" href="../manifest.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/style.css">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6620975821265271" crossorigin="anonymous"></script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What rate should I use?", "acceptedAnswer": {"@type": "Answer", "text": "Use a conservative estimate. High-yield savings accounts pay a few percent; diversified stock portfolios have historically returned more but with large swings. Test a range."}}, {"@type": "Question", "name": "Does compounding frequency matter much?", "acceptedAnswer": {"@type": "Answer", "text": "A little. Moving from annual to monthly compounding at 7% raises the effective yield from 7.00% to about 7.23%. Time and contribution size matter far more."}}]}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://34456.com/"}, {"@type": "ListItem", "position": 2, "name": "Tools", "item": "https://34456.com/tools/index.html"}, {"@type": "ListItem", "position": 3, "name": "Compound Interest", "item": "https://34456.com/tools/compound.html"}]}</script>
+</head>
+<body data-root="../" data-page="tools">
+<a class="skip" href="#main">Skip to content</a>
+<div class="topstrip">Contact, if you are interested in this website / domain name / Sponsorship / Advertisement / Partnership — <a href="https://web.works/contact" target="_blank" rel="noopener">web.works/contact</a></div>
+<header id="site-header"><noscript><a href="../index.html">34456.com</a> · <a href="../tools/index.html">Tools</a> · <a href="../guides/index.html">Guides</a> · <a href="../get-matched.html">Free Pay Review</a></noscript></header>
+<nav class="crumbs wrap" aria-label="Breadcrumb"><a href="../index.html">Home</a> / <a href="../tools/index.html">Tools</a> / Compound Interest</nav>
+<main id="main">
+<div class="wrap page-h"><h1>Compound interest calculator</h1><p class="lead">See how a starting balance plus monthly contributions grows — with a rate range to stress-test your plan.</p></div>
+<section class="wrap tool" style="padding-top:10px"><div class="card"><div class="row"><div><label for="cP">Initial investment ($)</label><input id="cP" inputmode="decimal" value="5000" ></div><div><label for="cM">Monthly contribution ($)</label><input id="cM" inputmode="decimal" value="300" ></div></div><div class="row"><div><label for="cY">Years</label><input id="cY" inputmode="decimal" value="25" ></div><div><label for="cR">Estimated annual rate (%)</label><input id="cR" inputmode="decimal" value="7" ></div></div><div class="row"><div><label for="cF">Compounding</label><select id="cF"><option value="1">Annually</option><option value="2">Semi-annually</option><option value="4">Quarterly</option><option value="12" selected>Monthly</option><option value="365">Daily</option></select></div><div><label for="cV">Rate variance ± (%)</label><input id="cV" inputmode="decimal" value="2" ></div></div><button class="btn block" style="margin-top:14px" data-share>Share this tool</button></div><div><div class="card"><span class="muted small">FUTURE VALUE</span><div class="big grad" id="cOut"></div><div class="kpis" id="cK"></div><canvas id="cChart" aria-label="Growth chart"></canvas><div class="legend"><span style="--c:#22d3ee">High rate</span><span style="--c:#7c5cff">Estimated</span><span style="--c:#f59e0b">Low rate</span><span style="--c:#9aa6c4">Contributions</span></div></div></div></section>
+<div class="adslot wrap" aria-hidden="true"></div><article class="wrap prose"><h2>Why compounding is the most powerful number in personal finance</h2><p>Compound interest earns interest on previous interest. Early on, contributions do most of the work; later, growth overtakes them. Saving $300 a month for 25 years at 7% turns $90,000 of contributions (plus a $5,000 start) into roughly $270,000.</p>
+<h2>The Rule of 72</h2><p>Divide 72 by your annual rate to estimate how many years it takes money to double: about 10.3 years at 7%, 7.2 years at 10%. It works just as powerfully against you on debt — at 24% APR a credit-card balance doubles in about three years.</p>
+<div class="callout">Future value = P(1 + r/n)<sup>nt</sup> + contributions grown at the same rate</div><p>Returns on investments are never guaranteed; use the variance setting to plan for a range of outcomes.</p><h2>Frequently asked questions</h2><details><summary>What rate should I use?</summary><p>Use a conservative estimate. High-yield savings accounts pay a few percent; diversified stock portfolios have historically returned more but with large swings. Test a range.</p></details><details><summary>Does compounding frequency matter much?</summary><p>A little. Moving from annual to monthly compounding at 7% raises the effective yield from 7.00% to about 7.23%. Time and contribution size matter far more.</p></details></article><section class="wrap reveal"><div class="leadbox"><div class="grid g2" style="align-items:center">
+<div><span class="badge">FREE · 2 MINUTES</span><h2 style="font-family:var(--mono);font-size:1.9rem;margin:.4em 0">Find out if you're underpaid — free.</h2>
+<p class="muted">Tell us your role, pay and goal. A real person reviews it and replies with a market-pay range and the next best move — negotiating, switching jobs, cutting taxes or pricing your freelance work.</p>
+<ul class="muted small"><li>✔ No cost, no obligation</li><li>✔ We never sell your details without consent</li><li>✔ Optional intro to vetted coaches &amp; advisors</li></ul></div>
+<div style="text-align:center"><div class="big grad">+$1,723/yr</div><p class="muted small">what a 5% raise is worth on a $34,456 salary*</p><a class="btn pri block" href="../get-matched.html">Get my free pay review →</a><p class="small muted">*Before tax. Your numbers will differ.</p></div>
+</div></div></section>
+</main>
+<footer id="site-footer"></footer>
+<script src="../assets/js/calc.js" defer></script>
+<script src="../assets/js/app.js" defer></script>
+</body>
+</html>
